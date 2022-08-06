@@ -76,5 +76,3 @@ class ModelTests(TestCase):
         tag = models.Tag.objects.create(user=user, name='Tag1')
 
         self.assertTrue(str(tag), tag.name)
-
-
